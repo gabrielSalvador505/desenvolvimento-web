@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Crie sua conta</legend>
+
+            <label for="user-name">Nome:</label><br>
+            <input type="text" name="user-name" id="user-name">
+            <br><br>
+            <label for="e-mail">E-Mail</label><br>
+            <input type="email" name="e-mail" id="e-mail">
+            <br><br>
+            <label for="password">Senha (mínimo 8 carateres):</label><br>
+            <input type="password" name="password" id="password" minlength="8">
+            <br>
+            <h2>Gênero:</h2>
+            <input type="radio" name="radio" id="radio" value="Femino">
+            <label for="feminino">Feminino</label>
+            <br>
+            <input type="radio" name="masculino" id="masculino" value="Masculino">
+            <label for="masculino">Masculino</label>
+            <br>
+            <input type="radio" name="outro" id="outro" value="Outro">
+            <label for="outro">Outro</label>
+            <br><br>
+            <label for="biograph">Biografia:</label>
+            <br>
+            <textarea name="biograph" id="biograph" rows="6" placeholder="Fale um pouco sobre você..."></textarea>
+            <br>
+            <input required type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Li e aceito os termos de serviço</label>
+        </fieldset>
+        <input type="submit" value="Cadastrar"> <input type="reset" value="Limpar">
+    </form>
+    
+</body>
+</html> 
