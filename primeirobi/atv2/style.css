@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    font-family: sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    background-color: #ffff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+legend { 
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+label {
+    margin: 10px 10px 5px 10px;
+}
+
+.text-input {
+    height: 30px;
+    width: 35vw;
+    margin: 0px 10px;
+    padding: 0 10px;
+}
+
+#checkbox {
+    display: flex;
+    align-self: flex-start;
+}
