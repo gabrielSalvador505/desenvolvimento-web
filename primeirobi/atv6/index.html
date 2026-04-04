@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="icon">
+            <h1>TO</h1>
+            <h1>DO</h1>
+            <h1>LIST</h1>
+        </div>
+        <form id="input-area" onsubmit="addItem(event)">
+            <input id="input" type="text" autocomplete="off" placeholder="Adicione uma tarefa...">
+            <button id="button">+</button>
+        </form>
+        <div id="list-area">
+            <ul id="list"></ul>
+        </div>
+    </main>
+</body>
+    <script src="script.js"></script>
+</html>
