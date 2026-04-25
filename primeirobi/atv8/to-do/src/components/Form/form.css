@@ -1,0 +1,26 @@
+form {
+    width: fit-content;
+    display: flex;
+    gap: 0.5rem;
+}
+
+input {
+    width: 30vw;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+}
+input:focus {
+    outline: none;
+}
+
+.add-button {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: #61a6f1;
+    color: #0460c3;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
